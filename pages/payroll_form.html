@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html>
     <head>
@@ -5,28 +6,50 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="shortcut icon" href="../assets/images/1.png">
         <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;600&display=swap&quot; rel="stylesheet">
-        <title>Employee Payroll Form</title>
         <link rel="stylesheet" href="../css/payroll_form.css">
+        <title>Employee Payroll Form</title>
     </head>
     <body>
-         <!-- UC1 -->
+        <!-- UC1 -->
         <header class="header-content header">
         <div class="logo-content">
-            <img src="../Assets/depositphotos_25654235-stock-illustration-happy-logo-vector.jpg" alt="" width="7%" height="7%">
+            <img src="../Assets/depositphotos_25654235-stock-illustration-happy-logo-vector.jpg" alt="" width="5%" height="5%">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
             </div>
         </div>
         </header>
-         <!-- UC2 -->
-         <div>
+        <!-- UC2 -->
+        <div>
             <form class = "form" action="#" onsubmit="save(event);return false">
                 <div class="form-head"> Employee Payroll Form </div>
                 <div class = "row-content">
                     <label class="label text" for="name">Name</label>
                     <input class="input" type="text" id="name" name="name" placeholder="Your Name.." required>
                 </div>
+            <!-- UC3-->
+            <div class="row-content">
+                <label class="label text" for="profile"> Profile Image</label>
+                <div class="profile-radio-content">
+                    <label>
+                        <input type="radio" id="profile1" name="profile" value=" ../Assets/1.jpg" required>
+                        <img class="profile" id="image1" src="../Assets/1.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile2" name="profile" value="../Assets/2.jpg" required>
+                        <img class="profile" id="image2" src="../Assets/2.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile3" name="profile" value="../Assets/3.jpg" required>
+                        <img class="profile" id="image3" src="../Assets/3.jpg">
+                    </label>
+                    <label>
+                        <input type="radio" id="profile4" name="profile" value="../Assets/photo4.jpg" required>
+                        <img class="profile" id="image4" src="../Assets/photo4.jpg">
+                    </label>
+                </div>
+            </div>    
             </form>
         </div>
     </body>
