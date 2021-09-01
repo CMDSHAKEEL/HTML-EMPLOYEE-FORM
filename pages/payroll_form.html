@@ -1,3 +1,4 @@
+ 
 <!DOCTYPE html>
 <html>
     <head>
@@ -32,19 +33,19 @@
                 <label class="label text" for="profile"> Profile Image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio" id="profile1" name="profile" value="../assets/1" required>
+                        <input type="radio" id="profile1" name="profile" value="../assets/profile-images/Ellipse -1.png" required>
                         <img class="profile" id="image1" src="../Assets/1.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile2" name="profile" value="../assets/2" required>
+                        <input type="radio" id="profile2" name="profile" value="../assets/profile-images/Ellipse -2.png" required>
                         <img class="profile" id="image2" src="../Assets/2.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile3" name="profile" value="../assets/3.png" required>
+                        <input type="radio" id="profile3" name="profile" value="../assets/profile-images/Ellipse -3.png" required>
                         <img class="profile" id="image3" src="../Assets/3.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile4" name="profile" value="../assets/.png" required>
+                        <input type="radio" id="profile4" name="profile" value="../assets/profile-images/Ellipse -4.png" required>
                         <img class="profile" id="image4" src="../Assets/photo4.jpg">
                     </label>
                 </div>
@@ -137,7 +138,19 @@
                 <option value="2018">2018</option>
                 <option value="2017">2017</option>
                 <option value="2016">2016</option>
-            </select>    
+            </select>
+            <!-- UC6 -->
+            <div class="row-content">
+                <label class="label text" for="notes">Notes</label>
+                <textarea id="notes" class="input" name="Notes" style="height:100px"></textarea>
+            </div>
+            <div class="buttonParent">
+                <a href="./home.html" class="button cancelButton">Cancel</a>
+                <div class="submit-reset">
+                    <button type="submit" class="button subitButton" id="submitButton">Submit</button>
+                    <button type="reset" class="button resetButton">Reset</button>
+                </div>
+            </div>    
             </form>
         </div>
     </body>
