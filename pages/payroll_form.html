@@ -1,4 +1,3 @@
- 
 <!DOCTYPE html>
 <html>
     <head>
@@ -13,7 +12,7 @@
         <!-- UC1 -->
         <header class="header-content header">
         <div class="logo-content">
-            <img src="../Assets/depositphotos_25654235-stock-illustration-happy-logo-vector.jpg" alt="" width="5%" height="5%">
+            <img src="../Assets/depositphotos_25654235-stock-illustration-happy-logo-vector.jpg" alt="" width="3%" height="3%">
             <div>
                 <span class="emp-text">EMPLOYEE</span><br>
                 <span class="emp-text emp-payroll">PAYROLL</span>
@@ -33,22 +32,52 @@
                 <label class="label text" for="profile"> Profile Image</label>
                 <div class="profile-radio-content">
                     <label>
-                        <input type="radio" id="profile1" name="profile" value=" ../Assets/1.jpg" required>
+                        <input type="radio" id="profile1" name="profile" value="../Assets/1.jpg " required>
                         <img class="profile" id="image1" src="../Assets/1.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile2" name="profile" value="../Assets/2.jpg" required>
+                        <input type="radio" id="profile2" name="profile" value=" ../Assets/2.jpg" required>
                         <img class="profile" id="image2" src="../Assets/2.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile3" name="profile" value="../Assets/3.jpg" required>
+                        <input type="radio" id="profile3" name="profile" value=" ../Assets/3.jpg" required>
                         <img class="profile" id="image3" src="../Assets/3.jpg">
                     </label>
                     <label>
-                        <input type="radio" id="profile4" name="profile" value="../Assets/photo4.jpg" required>
+                        <input type="radio" id="profile4" name="profile" value="../Assets/4.jpg" required>
                         <img class="profile" id="image4" src="../Assets/photo4.jpg">
                     </label>
                 </div>
+            </div>
+            <!-- UC4 -->
+            <div class="row-content">
+                <label class="label text" for="gender">Gender</label>
+                <div>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label class="text" for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label class="text" for="female">Female</label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="department">Department</label>
+                <div>
+                    <input class="checkbox" type="checkbox" id="hr" name="hr" value="HR">
+                    <label class="text" for="hr">HR</label>
+                    <input class="checkbox" type="checkbox" id="sales" name="sales" value="Sales">
+                    <label class="text" for="sales">Sales</label>
+                    <input class="checkbox" type="checkbox" id="finance" name="finance" value="Finance">
+                    <label class="text" for="finance">Finance</label>
+                    <input class="checkbox" type="checkbox" id="engineer" name="engineer" value="Engineer">
+                    <label class="text" for="engineer">Engineer</label>
+                    <input class="checkbox" type="checkbox" id="others" name="others" value="Others">
+                    <label class="text" for="others">Others</label>
+                </div>
+            </div>
+            <div class="row-content">
+                <label class="label text" for="salary">Choose Your Salary:</label>
+                <input class="input" type="range" name="salary" id="salary" min="300000" max="500000" step="100" value="400000">
+                <output class="salary-output text" for="salary">400000</output>
             </div>    
             </form>
         </div>
